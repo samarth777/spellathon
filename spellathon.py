@@ -33,7 +33,7 @@ def spell():
     resp = MessagingResponse()
     send = resp.message()
 
-    if msg == 'hi':
+    if msg == 'hello':
         send.body('''*Welcome to Spellathon!*
 
 Find words that fulfill these conditions.
