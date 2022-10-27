@@ -86,9 +86,8 @@ The words were: *{}*
 The words you got right were: *{}*
 
 Your score is: *{} %*
-
 Created by: Samarth
-https://linktr.ee/samarth.p
+https://samarth.ml
 '''.format(len(set(users[sender])), len(ans), ', '.join(ans), ', '.join(set(users[sender])),round(((len(set(users[sender]))/len(ans))*100))))
         l=[]
         users.pop(sender)
