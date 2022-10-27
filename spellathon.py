@@ -33,7 +33,7 @@ def spell():
     resp = MessagingResponse()
     send = resp.message()
 
-    if msg == 'hello':
+    if msg == 'Hi':
         send.body('''*Welcome to Spellathon!*
 
 Find words that fulfill these conditions.
@@ -72,7 +72,7 @@ Message 'play' to begin...
         send.body('Word must be atleast 4 letters long!')
 
     elif msg.isalpha()==False:
-        send.body('Word must be alphabetic!')
+        send.body('Word must be alphabetic !')
 
     elif msg == 'done':
 
